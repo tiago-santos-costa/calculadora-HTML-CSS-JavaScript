@@ -1,0 +1,137 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'calculo';
+    src: url(font/zrnic\ rg.ttf) format('truetype');
+}
+
+body {
+    background-image: url(imagem/WhatsApp\ Image\ 2022-09-23\ at\ 18.26.21.jpeg);
+    font-family: 'calculo' ;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.436);
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    text-align: center;
+    padding: 20px;
+    font-size: 60px;   
+}
+
+#operations #screen{
+    background-color: white;
+    border: 2px solid;
+    margin: 30px 18px 0px 18px;
+    overflow-wrap: break-word;
+    box-shadow: 0px 0px 10px black;
+    
+    
+
+
+}
+
+#calc{
+    
+    background-image: linear-gradient(to left,rgb(189, 189, 234),rgb(235, 234, 234) 40%);
+    width: 440px;
+    margin: auto;
+    border-radius: 5px;
+    border: 2px solid rgb(0, 0, 0);
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+    overflow-wrap: break-word;
+    color: black;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+#previous-operations{
+   
+    color: rgb(125, 125, 125);
+    overflow-wrap: break-word;
+    padding: 10px 10px 0px 0px;
+    font-size: 23px;
+    min-height: 80px;
+    margin: 0px 0px -35px 0px;
+  
+}
+
+#current-operation{
+    color: rgb(0, 0, 0);
+    font-size: 4em;
+    text-shadow: none;
+    overflow-wrap: break-word;
+    min-height: 80px;
+    padding-right: 10px;
+    padding-left: 10px;
+    
+}
+
+#button-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 15px;
+    padding: 30px;
+    margin-bottom: 2px;
+       
+}
+#button-container button{
+    font-family: 'calculo';
+    font-size: 20px;
+    padding: 8px;
+    font-size: 45px;
+    border-radius: 6px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.423);
+    border: 2px solid black;
+    cursor:pointer;
+    color: rgb(50, 50, 50);
+}
+p {
+    text-align: center;
+    padding: 20px;
+}
+
+
+#button-container #number0{
+    grid-column: span 2;
+}
+
+#button-container #numbersoma{
+    grid-row: span 2;
+    background-color: rgb(119, 236, 119);   
+}
+#button-container #numberc{
+    background-color: rgb(216, 106, 106);
+}
+#button-container button:hover{
+    background-color: rgb(136, 166, 181);
+    color: rgb(255, 255, 255);
+}
+#button-container #numberdel{
+    padding: 2px;
+    
+}
+
+#button-container #numberigual{
+    height: 60px;
+    grid-column: span 5;
+    background-color: rgb(155, 155, 249);
+    padding-top: 1px;
+}
+#foot{
+    
+    color: rgb(54, 54, 54);
+    font-size: 2em;
+    margin: 0px;
+    padding-bottom: 10px;
+    padding-top: 0px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 255, 0.399);
+    
+}
