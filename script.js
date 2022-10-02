@@ -113,11 +113,14 @@ class calculator {
 
     processEqualOperator() {
 
-        const operation = previousOperationText.innerText.split(" ")[1];
+        const operation = currentOperationText.innerText(" ");
         this.processOperation(operation);
         
         
+<<<<<<< Updated upstream
         
+=======
+>>>>>>> Stashed changes
     }
 }
 
