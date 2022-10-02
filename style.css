@@ -55,10 +55,11 @@ h1{
    
     color: rgb(125, 125, 125);
     overflow-wrap: break-word;
-    padding: 10px 10px 0px 0px;
-    font-size: 23px;
+    padding: 5px 10px;
+    font-size: 45px;
     min-height: 80px;
     margin: 0px 0px -35px 0px;
+    text-shadow: none;
   
 }
 

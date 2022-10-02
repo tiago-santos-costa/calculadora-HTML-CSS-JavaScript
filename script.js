@@ -116,6 +116,8 @@ class calculator {
         const operation = previousOperationText.innerText.split(" ")[1];
         this.processOperation(operation);
         
+        
+        
     }
 }
 
