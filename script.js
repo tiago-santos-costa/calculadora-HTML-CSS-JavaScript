@@ -117,10 +117,7 @@ class calculator {
         this.processOperation(operation);
         
         
-<<<<<<< Updated upstream
         
-=======
->>>>>>> Stashed changes
     }
 }
 
