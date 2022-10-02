@@ -92,7 +92,7 @@ class calculator {
         const mathOperation = ["*", "/", "+", "-"]
 
         if(!mathOperation.includes(operation)) {
-            return
+            return;
         }
 
         this.previousOperationText.innerText = this.previousOperationText.innerText.slice(0, -1) + operation;
@@ -113,7 +113,7 @@ class calculator {
 
     processEqualOperator() {
 
-        const operation = currentOperationText.innerText(" ");
+        const operation = previousOperationText.innerText.split(" ")[1];
         this.processOperation(operation);
         
         
