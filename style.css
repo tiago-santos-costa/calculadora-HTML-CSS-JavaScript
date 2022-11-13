@@ -7,6 +7,11 @@
     font-family: 'calculo';
     src: url(font/zrnic\ rg.ttf) format('truetype');
 }
+@font-face {
+    font-family: 'assinatura';
+    src: url(font/Blacksword.otf) format('truetype');
+}
+
 
 html, body {
     background-image: url(imagem/WhatsApp\ Image\ 2022-09-23\ at\ 18.26.21.jpeg);
@@ -131,12 +136,12 @@ p {
     padding-top: 1px;
 }
 #foot{
-    
-    color: rgb(54, 54, 54);
+    font-family: 'assinatura';
+    color: rgb(255, 255, 255);
     font-size: 2em;
     margin: 0px;
     padding-bottom: 10px;
     padding-top: 0px;
-    text-shadow: 2px 2px 5px rgba(0, 0, 255, 0.399);
+    text-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.304);
     
 }
