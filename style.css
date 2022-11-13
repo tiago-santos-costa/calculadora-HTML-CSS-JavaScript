@@ -40,7 +40,9 @@ h1{
 #calc{
     
     background-image: linear-gradient(to left,rgb(189, 189, 234),rgb(235, 234, 234) 40%);
-    width: 440px;
+    min-width: 30px;
+    max-width: 400px;
+    height: 630px;
     margin: auto;
     border-radius: 5px;
     border: 2px solid rgb(0, 0, 0);
