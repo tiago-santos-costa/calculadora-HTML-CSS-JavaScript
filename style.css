@@ -35,19 +35,12 @@ h1{
     border: 2px solid;
     margin: 30px 18px 0px 18px;
     overflow-wrap: break-word;
-    box-shadow: 0px 0px 10px black;
-    
-    
-
-
 }
 
-#calc{
-    
-    background-image: linear-gradient(to left,rgb(189, 189, 234),rgb(235, 234, 234) 40%);
+#calc{    
+    background-image: linear-gradient(to left,rgb(127, 127, 170),rgb(235, 234, 234) 40%);
     min-width: 30px;
-    max-width: 400px;
-    height: 630px;
+    max-width: 340px;  
     margin: auto;
     border-radius: 5px;
     border: 2px solid rgb(0, 0, 0);
@@ -56,58 +49,53 @@ h1{
     color: black;
     text-align: right;
     display: flex;
-    flex-direction: column;
-    
-
+    flex-direction: column;   
 }
+
 #previous-operations{
-   
     color: rgb(125, 125, 125);
     overflow-wrap: break-word;
     padding: 5px 10px;
-    font-size: 45px;
+    font-size: 40px;
     min-height: 80px;
-    margin: 0px 0px -35px 0px;
-    text-shadow: none;
-  
+    margin: 0px 0px -15px 0px;
+    text-shadow: none  
 }
 
 #current-operation{
     color: rgb(0, 0, 0);
-    font-size: 4em;
+    font-size: 3em;
     text-shadow: none;
     overflow-wrap: break-word;
-    min-height: 80px;
+    min-height: 65px;
     padding-right: 10px;
-    padding-left: 10px;
-    
+    padding-left: 10px;   
 }
 
 #button-container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    gap: 15px;
-    padding: 30px;
-    margin-bottom: 2px;
-       
+    gap: 10px;
+    padding: 20px;
+    margin-bottom: 20px;       
 }
+
 #button-container button{
     font-family: 'calculo';
-    font-size: 20px;
-    padding: 8px;
-    font-size: 45px;
+    padding: 12px 0px;
+    font-size: 35px;
     border-radius: 6px;
     background-color: white;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.423);
+    box-shadow: 3px 3px  rgba(0, 0, 0, 0.423);
     border: 2px solid black;
     cursor:pointer;
     color: rgb(50, 50, 50);
 }
+
 p {
     text-align: center;
     padding: 20px;
 }
-
 
 #button-container #number0{
     grid-column: span 2;
@@ -117,16 +105,18 @@ p {
     grid-row: span 2;
     background-color: rgb(119, 236, 119);   
 }
+
 #button-container #numberc{
     background-color: rgb(216, 106, 106);
 }
+
 #button-container button:hover{
     background-color: rgb(136, 166, 181);
     color: rgb(255, 255, 255);
 }
+
 #button-container #numberdel{
-    padding: 2px;
-    
+    padding: 2px;    
 }
 
 #button-container #numberigual{
@@ -135,18 +125,18 @@ p {
     background-color: rgb(155, 155, 249);
     padding-top: 1px;
 }
+
 #foot{
     font-family: 'assinatura';
     color: rgb(255, 255, 255);
     font-size: 1.5em;
     margin: 0px;
     padding-bottom: 10px;
-    padding-top: 0px;
+    padding-top: 10px;
     text-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.304);  
 }
 
 #copy {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 0.7em;
-
 }
